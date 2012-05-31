@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HowtoPlaySanguoKillerActivity!</string>
+    <string name="app_name">HowtoPlaySanguoKiller</string>
+    <!-- xutao add string here -->
+    <string name="pokerindroduce">牌面知识</string>
+    <string name="playindroduce">玩法介绍</string>
+    <string name="goodarticle">游戏攻略</string>
+    
+    
+    
+    <!-- hujie add string here -->
+</resources>
