@@ -10,12 +10,13 @@ public class HowtoPlaySanguoKillerActivity extends TabActivity {
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
 
         final TabHost tabHost = getTabHost();
 
         tabHost.addTab(tabHost.newTabSpec("pokerindroduce")
                 .setIndicator(getResources().getString(R.string.pokerindroduce))
-                .setContent(new Intent(this, PlayIndroduce.class)));
+                .setContent(new Intent(this, PokerIndroduce.class)));
 
         tabHost.addTab(tabHost.newTabSpec("playindroduce")
                 .setIndicator(getResources().getString(R.string.playindroduce))
@@ -26,6 +27,10 @@ public class HowtoPlaySanguoKillerActivity extends TabActivity {
         tabHost.addTab(tabHost.newTabSpec("goodarticle")
                 .setIndicator(getResources().getString(R.string.goodarticle))
                 .setContent(new Intent(this, GoodArticle.class)
+                        .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
+        tabHost.addTab(tabHost.newTabSpec("settings")
+                .setIndicator(getResources().getString(R.string.settings))
+                .setContent(new Intent(this, Settings.class)
                         .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)));
     }
 }
