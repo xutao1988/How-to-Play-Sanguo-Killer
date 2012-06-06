@@ -17,6 +17,7 @@
         <activity android:name="PlayIndroduce"></activity>
         <activity android:name="PokerIndroduce"></activity>
         <activity android:name="Settings"></activity>
+        <activity android:name="PokerGridView"></activity>
 
     </application>
 </manifest>
