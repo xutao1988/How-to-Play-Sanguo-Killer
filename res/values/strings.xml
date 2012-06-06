@@ -7,6 +7,9 @@
     <string name="playindroduce">玩法介绍</string>
     <string name="goodarticle">游戏攻略</string>
     <string name="settings">"设置"</string>
+    <string name="play_type_identify">身份场</string>
+    <string name="play_type_three_to_there">3V3</string>
+    <string name="play_type_one_to_one">1V1</string>
     
     
     <!-- hujie add string here -->
